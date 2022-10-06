@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Plus Jakarta Sans";
-    /*border: 1px solid red; */
+    border: 1px solid red; 
     
 }
 
@@ -16,11 +16,11 @@ a {
     text-decoration: none;
 }
 
-@media (max-width:767px) {
+@media  (max-width: 767px) {
     .tabletladyphoto {
         display: none;
     }
-};
+}
 
 /* mobile main container */
 .mobilemaincontainer {
@@ -335,7 +335,15 @@ a {
        
 }
 
-@media (min-width:768px) {
+
+/* Tablet View */
+@media  (min-width: 1100px) {
+    .tabletladyphoto {
+        display: none;
+    }
+}
+
+@media  (min-width: 768px) {
     .mobilemaincontainer {
         height: 1760px;
         width: 768px;
@@ -381,12 +389,12 @@ a {
         margin-top: 0px;
         padding-left: px;
     }
-    /*.mobilecheckoutcontainer {
+    .mobilecheckoutcontainer {
         height: 259px;
         width: 339px;
         margin-left: 39px;
         margin-top: 24px;  
-    }*/
+    }
     .mobilecheckouttext {
         margin-left: 32px;
         margin-top: 56px;
@@ -428,4 +436,176 @@ a {
         margin-top: -40px;
         margin-left: 589px;
     }
-};
+}
+
+/* Desktop View */
+@media  (min-width:1100px) {
+    .mobilemaincontainer {  
+        height: 1845px;
+        width: 1440px;
+        margin: 0 auto;
+        border-radius: 0px;
+    }
+    .mobileskilleduppertext {
+        height: 45px;
+        width: 114px;
+        margin-left: 165px;
+        margin-top: 29px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .mobilegetstartedcontainer {
+        height: 56px;
+        width: 167px;
+        margin-left: 1108px;
+        margin-top: -50px;
+    }
+    .mobilegetstartedtext {
+        width: 104px;
+        margin-left: 30px;
+        margin-top: 12px;
+        font-size: 18px;
+    }
+    
+    .mobilemaximizeskilltext {
+        height: 143px;
+        width: 457px;
+        margin-left: 165px;
+        margin-top: 178px;
+        font-size: 56px;
+        line-height: 71px; 
+    }
+    .mobileourmoderntext {
+        height: 84px;
+        width: 445px;
+        margin-left: 165px;
+        margin-top: 29px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mobileredgetstartedcontainer {
+        height: 56px;
+        margin-left: 165px;
+        margin-top: 40px;
+    }
+    .mobileredgetstartedtext {
+        height: 28px;
+        width: 104px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 32px;
+    }
+    .desktopladyphoto {
+        margin-left: 730px;
+        margin-top: -770px;
+    }
+    .mobilelastlargecontainer {
+        margin-top: 50px;
+        padding-left: 0px;
+        height: 888px;
+        width: 1440px;
+    }
+    .mobilecheckouttext {
+        height: 120px;
+        width: 286px;
+        margin-left: 32px;
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 40px;  
+        
+    }
+    .mobilelastlargecontainer > *:first-child {
+        height: 322px;
+        width: 350px;
+        margin-left: 165px;
+        margin-top: 24px; 
+    }
+    .mobilelastlargecontainer > *:nth-child(2) {
+        height: 346px;
+        width: 350px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .mobilelastlargecontainer > *:nth-child(3) {
+        height: 346px;
+        width: 350px;
+        margin-top: 0px;
+        margin-left: 30px; 
+    }
+    .mobilelastlargecontainer > *:nth-child(4) {
+        height: 346px;
+        width: 350px;
+        margin-left: 165px;
+        margin-top: 56px;  
+    }
+    .mobilelastlargecontainer > *:nth-child(5) {
+        height: 346px;
+        width: 350px;
+        margin-left: 30px; 
+        margin-top: 56px;
+    }
+    .mobilelastlargecontainer > *:last-child {
+        height: 346px;
+        width: 350px;
+        margin-left: 30px; 
+        margin-top: 56px;
+    }
+    .mobileanimationboxinside {
+        height: 322px;
+        width: 348px;
+        margin-left: 0px;
+        margin-top: 24px;
+
+    }
+    .mobileanimationtext {
+        height: 30px;
+        width: 121px;
+        margin-left: 32px;
+        margin-top: 64px;
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+    .mobilelearnthelasttext {
+        height: 112px;
+        width: 286px;
+        margin-left: 32px;
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+    .mobilelastgetstartedtext {
+        height: 28px;
+        width: 104px;
+        margin-left: 32px;
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+    .mobilefootercontainer {
+        height: 120px;
+        width: 1440px;
+        
+    }
+    .mobilelastpartskilledtext {
+        height: 45px;
+        width: 114px;
+        margin-left: 165px;
+        margin-top: 37px;
+        font-size: 36px;
+        line-height: 45px;
+        
+    }
+    .mobilelastgetstartedcontainer {
+        height: 56px;
+        width: 167px;
+        margin-left: 1130px;
+        margin-top: -60px;
+        border-radius: 28px;
+        
+    }
+    
+    
+}

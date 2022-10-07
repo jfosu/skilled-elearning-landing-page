@@ -20,6 +20,9 @@ a {
     .tabletladyphoto {
         display: none;
     }
+    .desktopladyphoto {
+        display: none;
+    }
 }
 
 /* mobile main container */
@@ -49,7 +52,6 @@ a {
 }
 
 .mobilegetstartedcontainer {
-    display: flex;
     height: 48px;
     width: 140px;
     margin-left: 210px;
@@ -59,6 +61,7 @@ a {
 }
 
 .mobilegetstartedtext {
+    display: inline-block;
     height: 28px;
     width: 92px;
     margin-left: 24px;
@@ -99,7 +102,6 @@ a {
 }
 
 .mobileredgetstartedcontainer {
-    display: flex;
     height: 56px;
     width: 167px;
     margin-left: 16px;
@@ -109,6 +111,7 @@ a {
 }
 
 .mobileredgetstartedtext {
+    display: inline-block;
     height: 26px;
     width: 92px;
     margin-left: 38px;
@@ -142,7 +145,7 @@ a {
 .mobilecheckoutcontainer {
     height: 120px;
     width: 343px;
-    margin-left: 0px;
+    margin-left: 16px;
     margin-top: 0px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 10px;
@@ -166,7 +169,7 @@ a {
     position: relative;
     height: 283px;
     width: 343px;
-    margin-left: 0px;
+    margin-left: 14px;
     margin-top: 16px;
     
 }
@@ -311,8 +314,7 @@ a {
     
 }
 
-.mobilelastgetstartedcontainer {
-    display: flex;
+.mobilefootergetstartedcontainer {
     height: 48px;
     width: 140px;
     margin-left: 219px;
@@ -321,7 +323,8 @@ a {
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
 }
 
-.mobilegetstartedtext {
+.mobilefootergetstartedtext {
+    display: inline-block;
     height: 28px;
     width: 92px;
     margin-left: 24px;
@@ -337,6 +340,11 @@ a {
 
 
 /* Tablet View */
+@media  (max-width: 1100px) {
+    .desktopladyphoto {
+        display: none;
+    }
+}
 @media  (min-width: 1100px) {
     .tabletladyphoto {
         display: none;
@@ -348,7 +356,8 @@ a {
         height: 1760px;
         width: 768px;
         margin: 0 auto;
-        border-radius: 0px; 
+        border-radius: 0px;
+        overflow: hidden; 
     }
     .mobileskilleduppertext {
         margin-left: 39px;
@@ -432,7 +441,7 @@ a {
     .mobilelastpartskilledtext {
         margin-left: 40px;
     }
-    .mobilelastgetstartedcontainer {
+    .mobilefootergetstartedcontainer {
         margin-top: -40px;
         margin-left: 589px;
     }
@@ -445,6 +454,7 @@ a {
         width: 1440px;
         margin: 0 auto;
         border-radius: 0px;
+        overflow: hidden;
     }
     .mobileskilleduppertext {
         height: 45px;
@@ -458,13 +468,17 @@ a {
         height: 56px;
         width: 167px;
         margin-left: 1108px;
-        margin-top: -50px;
+        margin-top: -50px; 
     }
+    .mobilegetstartedcontainer:hover {
+        background: #83869A;
+    }
+
     .mobilegetstartedtext {
         width: 104px;
-        margin-left: 30px;
-        margin-top: 12px;
         font-size: 18px;
+        margin-top: 14px;
+        margin-left: 32px;
     }
     
     .mobilemaximizeskilltext {
@@ -487,6 +501,9 @@ a {
         height: 56px;
         margin-left: 165px;
         margin-top: 40px;
+    }
+    .mobileredgetstartedcontainer:hover {
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     }
     .mobileredgetstartedtext {
         height: 28px;
@@ -584,6 +601,10 @@ a {
         line-height: 28px;
         
     }
+    .mobilelastgetstartedtext:hover {
+        color: #FFA7C3;
+    }
+
     .mobilefootercontainer {
         height: 120px;
         width: 1440px;
@@ -598,7 +619,7 @@ a {
         line-height: 45px;
         
     }
-    .mobilelastgetstartedcontainer {
+    .mobilefootergetstartedcontainer {
         height: 56px;
         width: 167px;
         margin-left: 1130px;
@@ -606,6 +627,24 @@ a {
         border-radius: 28px;
         
     }
+    .mobilefootergetstartedtext {
+        height: 28px;
+        width: 104px;
+        margin-left: 32px;
+        margin-top: 14px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mobileanimationicon img {
+        transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+    }
     
+    .mobileanimationicon img:hover {
+        transform: rotate(360deg);
+        transition: ease-in-out 0.5s;
+    }
+    .mobilefootergetstartedcontainer:hover {
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
     
 }

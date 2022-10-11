@@ -59,6 +59,9 @@ a {
     border-radius: 28px;
     background: #13183F;
 }
+.mobilegetstartedcontainer:hover {
+    background: #666CA3;
+}
 
 .mobilegetstartedtext {
     display: inline-block;
@@ -471,9 +474,9 @@ a {
         margin-top: -50px; 
     }
     .mobilegetstartedcontainer:hover {
-        background: #83869A;
+        background: #666CA3;;
     }
-
+    
     .mobilegetstartedtext {
         width: 104px;
         font-size: 18px;
@@ -503,7 +506,9 @@ a {
         margin-top: 40px;
     }
     .mobileredgetstartedcontainer:hover {
-        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        filter: brightness(150%);
+        
+        
     }
     .mobileredgetstartedtext {
         height: 28px;
@@ -553,19 +558,19 @@ a {
         height: 346px;
         width: 350px;
         margin-left: 165px;
-        margin-top: 56px;  
+        margin-top: -56px;  
     }
     .mobilelastlargecontainer > *:nth-child(5) {
         height: 346px;
         width: 350px;
         margin-left: 30px; 
-        margin-top: 56px;
+        margin-top: -56px;
     }
     .mobilelastlargecontainer > *:last-child {
         height: 346px;
         width: 350px;
         margin-left: 30px; 
-        margin-top: 56px;
+        margin-top: -56px;
     }
     .mobileanimationboxinside {
         height: 322px;
@@ -644,7 +649,6 @@ a {
         transition: ease-in-out 0.5s;
     }
     .mobilefootergetstartedcontainer:hover {
-        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    }
+        filter: brightness(150%);
     
 }

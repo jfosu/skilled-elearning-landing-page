@@ -20,4 +20,4 @@
 
 ### What I learned
 
-I learned how to use the property 'overflow'. I didn't know the concept of overflow before doing this project, and also the property 'z-index', where I was able to give an element a high order over other lements
+I learned how to use the property 'overflow'. I didn't know the concept of overflow before doing this project, and also the property 'z-index', where I was able to give an element a high order over other elements
